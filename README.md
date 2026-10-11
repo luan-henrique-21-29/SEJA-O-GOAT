@@ -1,6 +1,12 @@
 # ⚽ Football Life Brasil
 
-Jogo de futebol 2D para navegador, com modo carreira de jogador, partidas vistas de cima e decisões durante os lances. Desenvolvido no repositório `jogo-do-dino`.
+Jogo de futebol 2D para navegador, com modo carreira de jogador, partidas vistas de cima e decisões durante os lances. Desenvolvido no repositório `SEJA-O-GOAT`.
+
+## Atualização 2.1 — Identidade visual
+
+A interface agora conta com símbolo e logo horizontal originais em SVG transparente, tela de carregamento animada com componentes CSS, apresentação inicial com miniestádio desenhado, menu lateral renovado, ações rápidas funcionais na carreira e melhorias visuais responsivas. A tela inicial não substitui o formulário: a criação de jogador continua acessível imediatamente. O atleta, os treinos, as partidas em Canvas, as decisões, as estatísticas e os saves existentes permanecem no jogo.
+
+Esta etapa é somente **visual**. A base esportiva continua sendo a amostra de 2025 com dois clubes; não houve atualização fictícia de elencos de 2026. Elementos gráficos são originais e não usam escudos licenciados.
 
 ## O que esta versão entrega
 
@@ -65,7 +71,7 @@ O workflow **Verificar jogo** executa os testes e o build a cada push e pull req
 2. Em **Build and deployment → Source**, selecione **GitHub Actions**.
 3. Abra **Actions → Publicar no GitHub Pages → Run workflow**.
 4. Selecione a branch que contém o jogo e execute o workflow.
-5. Ao concluir, a etapa de deploy exibe o endereço publicado. Para este repositório, o endereço esperado é `https://luan-henrique-21-29.github.io/jogo-do-dino/`.
+5. Ao concluir, a etapa de deploy exibe o endereço publicado. Para este repositório, o endereço esperado é `https://luan-henrique-21-29.github.io/SEJA-O-GOAT/`.
 
 A publicação é **manual**: um push executa a verificação, mas não inicia o deploy. Os caminhos dos recursos são relativos para funcionar também na pasta do repositório no GitHub Pages.
 
