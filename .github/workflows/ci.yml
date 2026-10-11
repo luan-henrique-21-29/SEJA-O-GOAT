@@ -1,0 +1,30 @@
+name: Verificar jogo
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Instalar dependências
+        run: npm ci
+      - name: Testar regras do jogo
+        run: npm test
+      - name: Instalar navegador de testes
+        run: npx playwright install --with-deps chromium
+      - name: Testar no navegador
+        run: npm run test:browser
+      - name: Gerar versão estática
+        run: npm run build
