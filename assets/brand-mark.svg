@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 142" role="img" aria-label="Emblema Football Life Brasil">
+<defs><linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e3ff89"/><stop offset=".52" stop-color="#b6f14b"/><stop offset="1" stop-color="#488d39"/></linearGradient><linearGradient id="inner" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#1f3d28"/><stop offset="1" stop-color="#081810"/></linearGradient></defs>
+<path d="M64 4 118 23v43c0 36-22 56-54 71C32 122 10 102 10 66V23Z" fill="#06120e" stroke="url(#edge)" stroke-width="6"/>
+<path d="M64 15 107 30v36c0 27-17 46-43 59C38 112 21 93 21 66V30Z" fill="url(#inner)" stroke="#d5f5ad" stroke-opacity=".23"/>
+<path d="M30 39 60 26l-11 22 21 8-15 37 43-47-24 6 11-29" fill="none" stroke="#b6f14b" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="65" cy="77" r="24" fill="#edf8e3" stroke="#b6f14b" stroke-width="3"/>
+<path d="m65 65 11 8-4 13H59l-5-13Z" fill="#10291c"/><path d="m65 65 1-12m10 20 12-2M72 86l7 11M59 86l-8 11M54 73l-12-4" fill="none" stroke="#10291c" stroke-width="3" stroke-linecap="round"/>
+<path d="m44 111 20 11 20-11" fill="none" stroke="#b6f14b" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -10,3 +10,66 @@
 
 .page-title,.hero h1,.brand-name,.edition strong,.metric strong,.preview-meta h2,.rating-badge,.score,.end-summary h2,.fixture-vs,.result-pill,.live-stat strong{font-weight:700}.hero h1{font-size:clamp(40px,4.3vw,64px);letter-spacing:-.5px}.hero-copy{max-width:62%}.hero{min-height:345px}.brand-name{font-size:22px}.hero h1 span{white-space:nowrap}
 @media(max-width:720px){.hero{min-height:305px}.hero h1{font-size:49px}.hero-copy{max-width:68%}.creator-preview .preview-meta{width:52%}.creator-preview .preview-meta h2{font-size:29px}}
+
+
+/* Football Life Brasil — Identidade visual original / atualização 2.1 */
+:root{--stadium:#06100d;--panel-edge:#33503d}
+body{background:radial-gradient(ellipse at 95% 0%,#17352265 0%,transparent 35%),radial-gradient(ellipse at 30% 95%,#13291e70 0%,transparent 40%),var(--bg)}
+.sidebar{background:linear-gradient(180deg,#07130f 0%,#0b1a15 54%,#08120f 100%);box-shadow:12px 0 48px #0309063b}
+.sidebar::before{content:"";position:absolute;left:0;top:0;width:3px;height:230px;background:linear-gradient(180deg,var(--lime),transparent);pointer-events:none}
+.brand{gap:10px;min-height:61px}.brand-mark{width:50px;height:55px;object-fit:contain;filter:drop-shadow(0 0 12px #b6f14b22);transition:transform .25s}.brand:hover .brand-mark{transform:translateY(-2px) rotate(-3deg)}
+.brand-name{font-size:23px;letter-spacing:.25px}.brand-name small{letter-spacing:5px;color:var(--lime)}
+.nav button{position:relative;transition:background .18s,transform .18s,border-color .18s;border:1px solid transparent}
+.nav button svg{width:19px;height:19px}.nav button:hover{transform:translateX(3px);border-color:#38533f;background:#15281e}
+.nav button.active{border-color:#42613a;background:linear-gradient(95deg,#203b24,#142b21);box-shadow:inset 3px 0 0 var(--lime)}
+.sidebar-label{border-bottom:1px solid #3144358a;padding-bottom:14px}
+.edition{position:relative}.edition::before{content:"";position:absolute;right:12px;bottom:27px;width:50px;height:50px;border:2px solid #b6f14b12;border-radius:50%;box-shadow:0 0 0 12px #b6f14b05}
+.topbar{min-height:84px}.top-play{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border:1px solid #b6f14b61;color:var(--lime);background:#183021;border-radius:5px;font-size:10px;font-weight:800;letter-spacing:1px;transition:background .2s,transform .2s}
+.top-play svg{width:13px;height:13px}.top-play:hover{background:#2a4a29;transform:translateY(-1px)}
+.page-heading{position:relative}.page-heading::before{content:"";position:absolute;left:0;bottom:-12px;width:66px;height:2px;background:var(--lime);opacity:.75}
+.page-title{letter-spacing:.4px}.panel{box-shadow:0 10px 35px #01090620}.panel:hover{border-color:#38513c}
+.hero{background:radial-gradient(ellipse at 92% 15%,#4a765046,transparent 47%),linear-gradient(107deg,#0d241a 0%,#163e27 100%);border:1px solid #466444;isolation:isolate}
+.hero::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 79px,#e2ffce06 80px 81px);mask-image:linear-gradient(90deg,transparent 12%,#000 100%);pointer-events:none}
+.hero-pitch-lines{position:absolute;right:-45px;bottom:-100px;width:500px;height:390px;border:2px solid #e4ffdd12;transform:rotate(-14deg);pointer-events:none}
+.hero-pitch-lines::after{content:"";position:absolute;inset:26% 30%;border:2px solid #e4ffdd14;border-radius:50%}
+.hero .hero-copy{z-index:3}.hero-avatar{filter:drop-shadow(-14px 14px 32px #020e0b94)}.hero-number{color:#d7ffbc0c}
+.hero .primary{box-shadow:0 6px 26px #b6f14b29}.hero .eyebrow{color:#c4f28c}
+.career-shortcuts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:17px 0 4px}
+.career-shortcuts button{min-width:0;display:flex;align-items:center;text-align:left;gap:12px;background:linear-gradient(110deg,#14291e,#0e2019);border:1px solid #38513e;border-radius:7px;padding:15px 14px;transition:background .2s,transform .2s}
+.career-shortcuts button:hover{background:#213c2a;transform:translateY(-2px);border-color:#85a96a}
+.shortcut-icon{display:grid;place-items:center;width:39px;height:39px;background:#b6f14b14;color:var(--lime);border:1px solid #b6f14b2a;border-radius:7px;flex-shrink:0}
+.shortcut-icon svg{width:18px;height:18px}.career-shortcuts strong{display:block;font:16px 'Barlow Condensed',Impact,sans-serif;letter-spacing:1px}
+.career-shortcuts small{display:block;color:#9aae9c;font-size:10px;margin-top:2px}.shortcut-arrow{margin-left:auto;align-self:flex-start;font-size:16px;color:var(--lime)}
+.intro-arena{min-height:374px;position:relative;display:grid;grid-template-columns:1.15fr 1fr;overflow:hidden;background:linear-gradient(115deg,#0a2118 0%,#112f20 60%,#071912 100%);border:1px solid #48683f;border-radius:11px;margin-bottom:31px;isolation:isolate;box-shadow:0 15px 55px #030d094f}
+.intro-arena::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(125deg,transparent 0 85px,#d8ffb405 86px 87px);pointer-events:none}
+.intro-copy{z-index:2;position:relative;padding:26px 0 22px 31px;display:flex;flex-direction:column;align-items:flex-start}
+.intro-overline{font-size:10px;font-weight:800;letter-spacing:2.4px;color:#a7c79c;display:flex;align-items:center;gap:9px}
+.intro-wordmark{width:min(100%,330px);height:86px;object-fit:contain;object-position:left center;margin:7px 0 -3px}
+.intro-copy h2{font:clamp(28px,3.5vw,49px)/.99 'Barlow Condensed',Impact,sans-serif;letter-spacing:.4px;margin:4px 0 10px}
+.intro-copy h2 span{color:var(--lime)}.intro-copy p{color:#b2c8b3;line-height:1.65;font-size:11px;max-width:355px;margin:0 0 16px}
+.intro-cta{display:inline-flex;gap:22px;align-items:center;background:var(--lime);color:#0d2215;font-size:11px;font-weight:900;letter-spacing:.8px;text-decoration:none;padding:12px 17px;border-radius:5px;transition:transform .2s,background .2s}
+.intro-cta:hover{background:#d2ff7c;transform:translateY(-2px)}.intro-cta span{font-size:17px}
+.intro-tags{display:flex;flex-wrap:wrap;gap:13px;margin-top:auto;padding-top:16px;color:#9fc191;font-size:9px;font-weight:800;letter-spacing:1.1px}
+.intro-tags span+span{border-left:1px solid #45644a;padding-left:13px}
+.intro-scene{position:relative;overflow:hidden;min-height:330px;background:radial-gradient(ellipse at 45% 70%,#396a40 0%,#0a1d1550 58%,transparent 75%)}
+.intro-light{position:absolute;top:-75px;width:240px;height:310px;background:linear-gradient(180deg,#ecffe32c,transparent 85%);clip-path:polygon(43% 0%,57% 0%,100% 100%,0 100%);opacity:.8;animation:light-drift 7s ease-in-out infinite alternate}
+.intro-light-left{left:-12px;transform:rotate(-24deg)}.intro-light-right{right:-15px;animation-delay:-2s;transform:rotate(19deg)}
+.intro-stadium{position:absolute;inset:72px -45px 10px 0;perspective:450px;transform:rotate(-11deg)}
+.intro-field{position:absolute;inset:48px 4px 12px;background:repeating-linear-gradient(90deg,#235c32 0 46px,#2b6d3a 46px 92px);border:3px solid #c7edaf81;transform:rotateX(33deg);box-shadow:0 0 0 19px #07150da3,0 0 0 28px #2e49323d,0 20px 45px #020b07b0}
+.intro-field::before{content:"";position:absolute;inset:0;border-left:2px solid #c7edaf90;left:50%;width:0}
+.field-circle{position:absolute;left:50%;top:50%;width:95px;height:95px;border:2px solid #c7edaf97;border-radius:50%;transform:translate(-50%,-50%)}
+.field-box{position:absolute;top:24%;height:52%;width:16%;border:2px solid #c7edaf97}.field-box-left{left:0;border-left:0}.field-box-right{right:0;border-right:0}
+.field-spot{position:absolute;width:13px;height:13px;background:#f5fff0;border:3px solid #0e3720;border-radius:50%;box-shadow:0 2px 0 5px #c7edaf25}
+.field-spot-one{left:24%;top:28%}.field-spot-two{left:70%;top:54%;background:var(--lime)}.field-spot-three{left:49%;top:62%}
+.intro-ball{position:absolute;right:20%;bottom:26%;width:58px;height:58px;border:5px solid #e8f7de;border-radius:50%;background:radial-gradient(circle at 40% 35%,#f8fff0 0%,#c4d2c0 70%);box-shadow:0 14px 30px #020b08ae,0 0 32px #b6f14b55;animation:ball-float 3.5s ease-in-out infinite;z-index:1}
+.intro-ball span{position:absolute;inset:14px;background:#122b1e;clip-path:polygon(50% 0,100% 36%,82% 96%,18% 96%,0 36%)}
+.intro-scene-caption{position:absolute;bottom:20px;right:24px;color:#ebffe4c7;font-size:9px;font-weight:900;letter-spacing:1.5px;text-shadow:0 2px 4px #001}
+.boot-screen{position:fixed;inset:0;z-index:100;background:radial-gradient(circle at 50% 55%,#183923 0%,#06120d 70%);display:flex;align-items:center;justify-content:center;flex-direction:column;gap:15px;pointer-events:none;overflow:hidden}
+.boot-screen::before{content:"";position:absolute;inset:17%;border:1px solid #b6f14b23;border-radius:50%;box-shadow:0 0 0 75px #b6f14b08,0 0 0 150px #b6f14b03;animation:boot-pulse 1.2s ease-in-out infinite alternate}
+.boot-screen img{width:min(75vw,340px);height:auto;z-index:1;filter:drop-shadow(0 5px 30px #c5ff8033)}.boot-screen p{z-index:1;font-size:10px;color:#bed2b8;font-weight:800;letter-spacing:3px;margin:0}
+.boot-progress{width:190px;height:3px;background:#35533b;overflow:hidden;border-radius:3px;z-index:1}.boot-progress::before{content:"";display:block;height:100%;background:var(--lime);width:45%;animation:boot-load 1s ease-in-out infinite}
+@keyframes light-drift{from{opacity:.35;filter:blur(5px)}to{opacity:.85;filter:blur(1px)}}@keyframes ball-float{0%,100%{transform:translateY(0) rotate(-12deg)}50%{transform:translateY(-13px) rotate(9deg)}}@keyframes boot-pulse{to{transform:scale(1.11);opacity:.5}}@keyframes boot-load{from{transform:translateX(-110%)}to{transform:translateX(330%)}}
+@media(max-width:1150px){.intro-arena{grid-template-columns:1fr .75fr}.intro-copy{padding:23px 0 23px 23px}.intro-copy h2{font-size:35px}.intro-stadium{right:-95px}.career-shortcuts button{gap:8px;padding:12px 10px}}
+@media(max-width:960px){.brand{justify-content:center}.brand-mark{width:49px;height:53px}.intro-arena{grid-template-columns:1fr .9fr}.intro-copy h2{font-size:32px}.intro-tags{gap:6px}.intro-tags span+span{padding-left:7px}.career-shortcuts small{display:none}.shortcut-icon{width:33px;height:33px}}
+@media(max-width:720px){.intro-arena{grid-template-columns:1fr;min-height:auto}.intro-copy{padding:21px 20px 18px}.intro-copy h2{font-size:36px}.intro-wordmark{height:75px;max-width:300px}.intro-scene{min-height:135px;max-height:135px}.intro-stadium{inset:-20px -10px -55px 12px}.intro-ball{right:17%;bottom:23%;width:40px;height:40px}.intro-ball span{inset:9px}.intro-light{height:160px}.intro-scene-caption{bottom:11px;right:12px;font-size:7px}.intro-tags{margin-top:5px}.career-shortcuts{grid-template-columns:1fr;gap:8px;margin-top:12px}.career-shortcuts button{padding:10px 12px}.career-shortcuts small{display:block}.top-play{display:none}.nav button:hover{transform:none}}
+@media(prefers-reduced-motion:reduce){.intro-light,.intro-ball,.boot-progress::before,.boot-screen::before{animation:none!important}}

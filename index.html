@@ -3,13 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#091312">
+  <meta name="theme-color" content="#07130f">
   <meta name="description" content="Crie seu atleta e escreva sua história em Football Life Brasil. Futebol 2D com partidas animadas e decisões em campo.">
   <title>Football Life Brasil — Sua carreira começa aqui</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Football Life Brasil — Modo Carreira Jogador">
+  <meta property="og:description" content="Crie um atleta, jogue partidas 2D e decida seus próximos lances.">
   <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
+  <div id="boot-screen" class="boot-screen" aria-hidden="true"><img src="assets/brand-wordmark.svg" alt="" width="340" height="100"><p>PREPARANDO SEU PRÓXIMO CAPÍTULO</p><div class="boot-progress"></div></div>
   <div id="app"></div>
   <div id="toast" role="status" aria-live="polite"></div>
   <script type="module" src="src/app.js"></script>
