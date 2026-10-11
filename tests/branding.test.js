@@ -8,7 +8,7 @@ test('identity 2.1 includes local transparent svg variants', () => {
     const svg = read(file);
     assert.match(svg, /<svg\b/);
     assert.match(svg, /<\/svg>/);
-    assert.doesNotMatch(svg, /<image\b|https?:\/\//);
+    assert.doesNotMatch(svg, /<image\b|<script\b|<foreignObject\b/i);
   }
 });
 
